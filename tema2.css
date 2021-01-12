@@ -40,7 +40,7 @@ nav a:hover {
 a.forside_knapper {
     text-decoration: none;
     font-size: 10px;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top: 20px;
     font-family: 'Roboto';
     background-color: white;
@@ -58,7 +58,7 @@ a:active {
 .forside_knap {
     text-decoration: none;
     font-size: 10px;
-    margin-left: 500px;
+    margin-left: 550px;
     margin-top: 20px;
     font-family: 'Roboto';
     background-color: white;
@@ -74,7 +74,7 @@ h1 {
     margin-top: 5vw;
     font-family: 'Roboto';
     padding: 12px;
-    margin-left: 130px;
+    margin-left: 160px;
 }
 
 h2 {
@@ -116,7 +116,7 @@ a {
 img.image1 {
     position: absolute;
     width: 17%;
-    top: 42%;
+    top: 39%;
     padding: 10px;
     left: 75px;
 }
@@ -124,7 +124,7 @@ img.image1 {
 img.image11 {
     position: absolute;
     width: 17%;
-    top: 80%;
+    top: 75%;
     padding: 10px;
     left: 75px;
 }
@@ -237,18 +237,18 @@ footer a:hover {
 
     img.image1 {
         width: 60%;
-        top: 144%;
+        top: 133%;
         left: 17%;
     }
 
     img.image11 {
         width: 60%;
-        top: 187%;
+        top: 176%;
         left: 17%;
     }
 
     a.forside_knap {
-        margin-left: 20px;
+        margin-left: 17px;
     }
 
     footer {
