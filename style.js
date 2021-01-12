@@ -1,3 +1,6 @@
+let mybutton;
+
+
 //scrool til top kommer frem, når brugeren starter med at scrolle på siden
 
 //knappen:
@@ -5,7 +8,7 @@ mybutton = document.getElementById("myBtn");
 
 // Når brugeren ruller ned 20px fra toppen af dokumentet, vises knappen
 window.onscroll = function () {
-    scrollFunction()
+    scrollFunction();
 };
 
 function scrollFunction() {
