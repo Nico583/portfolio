@@ -1,0 +1,214 @@
+/*-----menu/header----*/
+header {
+    position: sticky;
+
+    background-color: white;
+    text-align: right;
+    top: 0px;
+    font-family: 'Roboto';
+    margin-top: 5px;
+}
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #d9bea2;
+    text-decoration: none;
+}
+
+/*----------main tekst indhold----------*/
+
+h1 {
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+    font-family: 'Roboto';
+
+}
+
+
+/*----Hover----*/
+
+a:hover,
+a:active {
+    color: #d9bea2;
+}
+
+/*---- logo---*/
+
+#Nlogo {
+    position: fixed;
+    left: 7px;
+    top: 2px;
+}
+
+/*---- knap top----*/
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 12px;
+    /* Place the button at the bottom of the page */
+    right: 20px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #d9bea2;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 9px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+
+/*----kontakt mig form-----*/
+form {
+    margin-top: 50px;
+    margin-bottom: 47px;
+    width: 50%;
+    margin-left: 300px;
+}
+
+main h1 {
+    font-family: 'roboto';
+    text-align: center;
+    margin-top: 65px;
+}
+
+
+form > * + *,
+fieldset > * + *:not(.address) {
+    margin-top: 1.5rem;
+}
+
+.form-group {
+    display: grid;
+}
+
+label {
+    border: 1px solid #21212133;
+    background: #f5f5f5;
+    padding: 8px 12px 10px;
+    border-radius: 23px;
+    font-size: 14px;
+}
+
+input {
+    font-size: 14px;
+    background: transparent;
+    border: none;
+}
+
+#send_message {
+    color: white;
+    border: 1px solid #5a795a;
+    background: #5C6F68;
+    padding: 7px 12px 10px;
+    border-radius: 17px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+textarea {
+    border: 1px solid #21212133;
+    background: #f5f5f5;
+    padding: 8px 12px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-family: 'roboto';
+    place-content: center;
+}
+
+
+/*--- footer----*/
+footer {
+    background-color: white;
+    position: absolute;
+    margin-top: 10px;
+}
+
+footer a:hover {
+    color: #d9bea2;
+
+}
+
+.fa {
+    text-decoration: none;
+
+}
+
+
+
+.fa-facebook {
+    color: gray;
+    padding: 5px;
+
+}
+
+
+.fa-instagram {
+    color: gray;
+    margin-left: 3px;
+}
+
+
+
+/*----responsive---*/
+@media screen and (max-width: 600px) {
+    #Nlogo {
+        position: fixed;
+        left: 7px;
+        top: 2px;
+    }
+
+    h1 {
+        font-size: 23px;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    footer {
+        position: absolute;
+    }
+
+    /*----kontakt mig form-----*/
+    form {
+        margin-top: 50px;
+        margin-bottom: 47px;
+        width: 84%;
+        margin-left: 40px;
+    }
+}

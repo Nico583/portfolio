@@ -1,0 +1,245 @@
+/*---menu/header---*/
+header {
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+    text-align: right;
+    top: 0px;
+    font-family: 'Roboto';
+    padding: 5px;
+}
+
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+
+}
+
+nav a:visited {
+    color: grey;
+
+}
+
+
+nav a:hover {
+    color: #d9bea2;
+    text-decoration: none;
+}
+
+/*---- logo---*/
+
+
+#Nlogo {
+    position: fixed;
+    left: 7px;
+    top: 2px;
+}
+
+/*---hover----*/
+
+a:hover,
+a:active {
+    color: #d9bea2;
+}
+
+
+.forside_knap {
+
+    text-decoration: none;
+    font-size: 10px;
+    margin-left: 530px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    background-color: white;
+    color: black;
+
+}
+
+.forside_knapper {
+    text-decoration: none;
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-family: 'Roboto';
+    background-color: white;
+    color: black;
+
+}
+
+/*----------main tekst indhold----------*/
+
+
+h1 {
+    text-align: center;
+    margin-top: 5vw;
+    font-family: 'Roboto';
+    padding: 12px;
+    margin-left: 150px;
+
+}
+
+h2 {
+    font-family: 'Roboto';
+    margin-top: 7vw;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 203px
+}
+
+
+p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    text-align: justify;
+    width: 670px;
+    margin-left: 410px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+/*-----billeder-----*/
+img.image3 {
+    position: absolute;
+    width: 18%;
+    top: 48%;
+    padding: 10px;
+    left: 75px;
+
+}
+
+img.image33 {
+    position: absolute;
+    width: 17%;
+    top: 85%;
+    padding: 10px;
+    left: 75px;
+}
+
+
+
+/*---- knap top----*/
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 12px;
+    /* Place the button at the bottom of the page */
+    right: 20px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #d9bea2;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 9px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+
+
+/*--- footer----*/
+footer {
+    background-color: white;
+    margin-top: 90px;
+}
+
+footer a:hover {
+    color: #d9bea2;
+
+}
+
+.fa {
+    text-decoration: none;
+    padding: 3px;
+}
+
+
+
+.fa-facebook {
+    color: gray;
+    padding: 5px;
+
+}
+
+
+.fa-instagram {
+    color: gray;
+    margin-left: 7px;
+}
+
+/*-----mobilversion----*/
+
+/*---column billeder---*/
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    #Nlogo {
+        position: fixed;
+        left: 7px;
+        top: 2px;
+    }
+
+
+    h1 {
+        font-size: 18px;
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+
+    h2 {
+        margin-left: 57px;
+        font-size: 11px;
+    }
+
+
+    p {
+        width: 320px;
+        font-size: 12px;
+        margin-left: 50px;
+    }
+
+    img.image3 {
+        width: 60%;
+        top: 172%;
+        left: 17%;
+    }
+
+    img.image33 {
+        width: 60%;
+        top: 215%;
+        left: 17%;
+    }
+
+    a.forside_knap {
+        margin-left: 40px;
+    }
+
+    footer {
+        position: absolute;
+        margin-top: 680px;
+    }
+
+    a.fa-instagram {
+        margin-bottom: 10px;
+    }
+
+}

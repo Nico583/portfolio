@@ -1,0 +1,428 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Arial,serif;font-size:18.1px;color:rgb(255,139,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:18.1px;color:rgb(255,139,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:15.1px;color:rgb(255,139,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:15.1px;color:rgb(255,139,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_024{font-family:Arial,serif;font-size:11.1px;color:rgb(17,84,204);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_024{font-family:Arial,serif;font-size:11.1px;color:rgb(17,84,204);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:11.6px;color:rgb(4,4,4);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:11.6px;color:rgb(4,4,4);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Arial,serif;font-size:11.6px;color:rgb(4,4,4);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Arial,serif;font-size:11.6px;color:rgb(4,4,4);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_014{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_013{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_016{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:16.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:16.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_018{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_019{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_020{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_021{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_021{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_022{font-family:Arial,serif;font-size:13.6px;color:rgb(32,32,36);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_022{font-family:Arial,serif;font-size:13.6px;color:rgb(32,32,36);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_023{font-family:Arial,serif;font-size:9.1px;color:rgb(69,69,69);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_023{font-family:Arial,serif;font-size:9.1px;color:rgb(69,69,69);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-298px;top:0px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background01.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:65.56px" class="cls_002"><span class="cls_002">Dokumentation Dokument</span></div>
+<div style="position:absolute;left:90.08px;top:98.84px" class="cls_004"><span class="cls_004">-  Emilie, Kirstine, Alexander og Nicoline - gruppe 8</span></div>
+<div style="position:absolute;left:72.06px;top:164.64px" class="cls_007"><span class="cls_007">Link og password til redesign-site:</span></div>
+<div style="position:absolute;left:72.06px;top:183.41px" class="cls_008"><span class="cls_008">Password: kea</span></div>
+<div style="position:absolute;left:72.06px;top:221.69px" class="cls_007"><span class="cls_007">Link gruppens site på Netlify:</span></div>
+<div style="position:absolute;left:72.06px;top:240.46px" class="cls_024"><span class="cls_024"> </span><A HREF="https://compassionate-lewin-a98a1c.netlify.app/">https://compassionate-lewin-a98a1c.netlify.app</A> </div>
+<div style="position:absolute;left:72.06px;top:278.74px" class="cls_007"><span class="cls_007">Link til gruppens GitHub - repository:</span></div>
+<div style="position:absolute;left:72.06px;top:297.50px" class="cls_008"><span class="cls_008"> </span><A HREF="https://github.com/emil25q2/redesign.git/">https://github.com/emil25q2/redesign.git</A> </div>
+<div style="position:absolute;left:72.06px;top:331.28px" class="cls_007"><span class="cls_007">Gruppekontrakt:</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:853px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background02.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.57px" class="cls_006"><span class="cls_006">Analyse af eksisterende site</span></div>
+<div style="position:absolute;left:72.06px;top:105.34px" class="cls_007"><span class="cls_007">Torsdag d. 3/12 </span><span class="cls_008">-</span><span class="cls_007"> BERT (</span><span class="cls_008">Bipolær Emotionel Respons Test).</span></div>
+<div style="position:absolute;left:72.06px;top:120.36px" class="cls_008"><span class="cls_008">Vi har lavet en Bert, for at finde ud af hvad brugerne mener om den nuværende hjemmeside</span></div>
+<div style="position:absolute;left:72.06px;top:134.62px" class="cls_008"><span class="cls_008">“hititskateboarding.com”. Når vi havde fået test resultaterne, brugte vi excel for at kalkulere</span></div>
+<div style="position:absolute;left:72.06px;top:148.88px" class="cls_008"><span class="cls_008">gennemsnittet for hver bipolære svarmulighed.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:1706px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background03.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.57px" class="cls_006"><span class="cls_006">Torsdag d. 3/12 - 5 sekunders test.</span></div>
+<div style="position:absolute;left:72.06px;top:89.58px" class="cls_008"><span class="cls_008">Vi har lavet en 5-sek test, som går ud på at afdække brugerens førstehåndsindtryk af sitet,</span></div>
+<div style="position:absolute;left:72.06px;top:103.84px" class="cls_008"><span class="cls_008">og derfor finde ud af, eller få hjælp til, at ændre noget på det eksisterende site.</span></div>
+<div style="position:absolute;left:72.06px;top:133.12px" class="cls_008"><span class="cls_008">Vi fik hjælp af 2 personer fra gruppe 9.</span></div>
+<div style="position:absolute;left:72.06px;top:162.39px" class="cls_007"><span class="cls_007">Resultat:</span></div>
+<div style="position:absolute;left:90.08px;top:191.16px" class="cls_011"><span class="cls_011">1.  test.</span></div>
+<div style="position:absolute;left:72.06px;top:206.18px" class="cls_012"><span class="cls_012">Hvad handler sitet om?</span></div>
+<div style="position:absolute;left:90.08px;top:221.19px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:221.19px" class="cls_011"><span class="cls_011">Skateboarding</span></div>
+<div style="position:absolute;left:90.08px;top:236.95px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:236.95px" class="cls_011"><span class="cls_011">Unge</span></div>
+<div style="position:absolute;left:90.08px;top:251.96px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:251.96px" class="cls_011"><span class="cls_011">Alkohol</span></div>
+<div style="position:absolute;left:90.08px;top:266.98px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:266.98px" class="cls_011"><span class="cls_011">Byen - kunne være en dsb reklame</span></div>
+<div style="position:absolute;left:72.06px;top:297.75px" class="cls_012"><span class="cls_012">Hvad var det mest iøjnefaldende?</span></div>
+<div style="position:absolute;left:90.08px;top:312.76px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:312.76px" class="cls_011"><span class="cls_011">Billedet med drengen (fyldte det meste)</span></div>
+<div style="position:absolute;left:90.08px;top:327.78px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:327.78px" class="cls_011"><span class="cls_011">Bagefter kiggede jeg op på hitit-logoet for at forstå, hvad der stod (lidt svært)</span></div>
+<div style="position:absolute;left:72.06px;top:358.55px" class="cls_012"><span class="cls_012">Beskriv hjemmesiden med 1 ord?</span></div>
+<div style="position:absolute;left:90.08px;top:373.57px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:373.57px" class="cls_011"><span class="cls_011">Enkel/simpel/kedelig</span></div>
+<div style="position:absolute;left:222.56px;top:373.57px" class="cls_011"><span class="cls_011">- ikke super interessant</span></div>
+<div style="position:absolute;left:90.08px;top:418.36px" class="cls_008"><span class="cls_008">2.  test.</span></div>
+<div style="position:absolute;left:72.06px;top:432.87px" class="cls_012"><span class="cls_012">Hvad handler sitet om?</span></div>
+<div style="position:absolute;left:90.08px;top:447.88px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:447.88px" class="cls_011"><span class="cls_011">Skateboarding</span></div>
+<div style="position:absolute;left:90.08px;top:462.89px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:462.89px" class="cls_011"><span class="cls_011">Skatertøj</span></div>
+<div style="position:absolute;left:90.08px;top:477.90px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:477.90px" class="cls_011"><span class="cls_011">Skater Livsstil</span></div>
+<div style="position:absolute;left:90.08px;top:493.67px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:493.67px" class="cls_011"><span class="cls_011">En hjemmeside for skatertøj - hoodies, bukser osv.</span></div>
+<div style="position:absolute;left:72.06px;top:523.69px" class="cls_012"><span class="cls_012">Hvad var det mest iøjenfaldende på sitet?</span></div>
+<div style="position:absolute;left:90.08px;top:538.70px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:538.70px" class="cls_011"><span class="cls_011">Billedet af drengen med skateboardet (fylder hele siden)</span></div>
+<div style="position:absolute;left:90.08px;top:554.47px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:554.47px" class="cls_011"><span class="cls_011">Sort/hvid</span></div>
+<div style="position:absolute;left:72.06px;top:584.49px" class="cls_012"><span class="cls_012">Beskriv hjemmesiden med ét ord:</span></div>
+<div style="position:absolute;left:90.08px;top:600.26px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:108.09px;top:600.26px" class="cls_011"><span class="cls_011">Skate</span></div>
+<div style="position:absolute;left:72.06px;top:645.05px" class="cls_008"><span class="cls_008">Vi fandt ud af ved testen, at de i forvejen godt kunne se ved 5 sekunder, at det var en skater</span></div>
+<div style="position:absolute;left:72.06px;top:659.31px" class="cls_008"><span class="cls_008">hjemmesiden, dog stadig lidt kedelig i deres smag. Vi fandt derfor ud af, at vi kunne beholde</span></div>
+<div style="position:absolute;left:72.06px;top:674.32px" class="cls_008"><span class="cls_008">mange af “skateboard” billederne, og derefter give det et “løft”, så det kunne blive mere</span></div>
+<div style="position:absolute;left:72.06px;top:688.58px" class="cls_008"><span class="cls_008">interessant at kigge på.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:2559px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background04.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.56px" class="cls_006"><span class="cls_006">Spørgsmål om virksomhed:</span></div>
+<div style="position:absolute;left:72.06px;top:107.09px" class="cls_014"><span class="cls_014">Da vi ikke kunne lave et interview, og dermed grave lidt dybere ned i</span></div>
+<div style="position:absolute;left:72.06px;top:123.61px" class="cls_014"><span class="cls_014">virksomheden, fik vi i stedet for en fra virksomheden til at besvare disse</span></div>
+<div style="position:absolute;left:72.06px;top:140.87px" class="cls_014"><span class="cls_014">spørgsmål:</span></div>
+<div style="position:absolute;left:90.08px;top:175.40px" class="cls_013"><span class="cls_013">●</span><span class="cls_007"> Brand/image - hvilken historie vil virksomheden fortælle? Hvilket budskab?</span></div>
+<div style="position:absolute;left:108.09px;top:197.67px" class="cls_008"><span class="cls_008">Citat fra hjemmesiden - “Hitit is a Copenhagen based skateboarding brand and a</span></div>
+<div style="position:absolute;left:108.09px;top:217.19px" class="cls_008"><span class="cls_008">skate team, representing skaters around the world, including the best skaters of</span></div>
+<div style="position:absolute;left:108.09px;top:235.95px" class="cls_008"><span class="cls_008">Denmark. We sell hardware, clothing and accessories and we support our own local</span></div>
+<div style="position:absolute;left:108.09px;top:254.72px" class="cls_008"><span class="cls_008">skate team and the global skateboarding community.”</span></div>
+<div style="position:absolute;left:90.08px;top:293.25px" class="cls_013"><span class="cls_013">●</span><span class="cls_007"> Hvad er jeres målgruppe nu? (alder, beskæftigelse, bopæl osv.)</span></div>
+<div style="position:absolute;left:108.09px;top:315.52px" class="cls_008"><span class="cls_008">Primært forhandlere (skatebutikker) samt skatere i alderen 10-35 år. Pt. kun i</span></div>
+<div style="position:absolute;left:108.09px;top:334.29px" class="cls_008"><span class="cls_008">Danmark.</span></div>
+<div style="position:absolute;left:90.08px;top:372.57px" class="cls_007"><span class="cls_007">●  Hvilken målgruppe ønsker I at ramme fremadrettet?</span></div>
+<div style="position:absolute;left:108.09px;top:391.33px" class="cls_008"><span class="cls_008">Det ønskes at bibeholde den nuværende målgruppe, men at udvide til lande som</span></div>
+<div style="position:absolute;left:108.09px;top:410.10px" class="cls_008"><span class="cls_008">Sverige, Norge, Finland og Tyskland inden 2022. Som udgangspunkt med fokus på</span></div>
+<div style="position:absolute;left:108.09px;top:429.62px" class="cls_008"><span class="cls_008">salg til forhandlere.</span></div>
+<div style="position:absolute;left:90.08px;top:467.39px" class="cls_013"><span class="cls_013">●</span><span class="cls_007"> Hvilke brugerrejser/funktionaliteter fokuserer I på?</span></div>
+<div style="position:absolute;left:108.09px;top:489.67px" class="cls_008"><span class="cls_008">Der fokuseres på at gøre brugeren hurtigere klar over, hvad firmaet egentlig drejer</span></div>
+<div style="position:absolute;left:108.09px;top:508.43px" class="cls_008"><span class="cls_008">sig om og sælger - derfor vil vi gerne have en mere forklarende landing-page med en</span></div>
+<div style="position:absolute;left:108.09px;top:527.95px" class="cls_008"><span class="cls_008">lille video, der viser det primære produkt og et slideshow med forklarende billeder,</span></div>
+<div style="position:absolute;left:108.09px;top:546.71px" class="cls_008"><span class="cls_008">der illustrere firmaets fokus. Derudover er team-siden og retailer-siden de mest</span></div>
+<div style="position:absolute;left:108.09px;top:565.48px" class="cls_008"><span class="cls_008">besøgte, derfor kunne disse sider også gøres mere iøjnefaldende.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:3412px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background05.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.57px" class="cls_006"><span class="cls_006">Burndown chart + scrum board proces</span></div>
+<div style="position:absolute;left:72.06px;top:107.09px" class="cls_013"><span class="cls_013">Mandag:</span></div>
+<div style="position:absolute;left:72.06px;top:123.61px" class="cls_016"><span class="cls_016">Screen dumps af scrum board (Morgen og aften)</span></div>
+<div style="position:absolute;left:72.06px;top:533.45px" class="cls_016"><span class="cls_016">Burndown chart:</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:4265px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background06.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.06px" class="cls_013"><span class="cls_013">Tirsdag :</span></div>
+<div style="position:absolute;left:72.06px;top:88.33px" class="cls_016"><span class="cls_016">Screen dumps af scrum board (Morgen og aften)</span></div>
+<div style="position:absolute;left:72.06px;top:504.18px" class="cls_013"><span class="cls_013">Burndown chart</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:5118px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background07.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.06px" class="cls_013"><span class="cls_013">Onsdag:</span></div>
+<div style="position:absolute;left:72.06px;top:88.33px" class="cls_013"><span class="cls_013">Screen dumps af scrum board (Morgen og aften)</span></div>
+<div style="position:absolute;left:72.06px;top:495.92px" class="cls_013"><span class="cls_013">Burndown chart</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:5971px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background08.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.06px" class="cls_013"><span class="cls_013">Torsdag:</span></div>
+<div style="position:absolute;left:72.06px;top:88.33px" class="cls_013"><span class="cls_013">Screen dumps af scrum board (Morgen og aften)</span></div>
+<div style="position:absolute;left:72.06px;top:489.16px" class="cls_013"><span class="cls_013">Burndown chart</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:6824px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background09.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.06px" class="cls_013"><span class="cls_013">Fredag:</span></div>
+<div style="position:absolute;left:72.06px;top:88.33px" class="cls_013"><span class="cls_013">Screen dumps af scrum board (Morgen og aften)</span></div>
+<div style="position:absolute;left:72.06px;top:465.14px" class="cls_013"><span class="cls_013">Burndown chart</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:7677px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background10.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:88.33px" class="cls_013"><span class="cls_013">Mandag:</span></div>
+<div style="position:absolute;left:72.06px;top:105.59px" class="cls_013"><span class="cls_013">Screen dumps af scrum board (Morgen og aften)</span></div>
+<div style="position:absolute;left:72.06px;top:570.23px" class="cls_013"><span class="cls_013">Burndown chart</span></div>
+<div style="position:absolute;left:430.11px;top:690.33px" class="cls_013"><span class="cls_013">Tirsdag:</span></div>
+<div style="position:absolute;left:430.11px;top:707.60px" class="cls_013"><span class="cls_013">Screen dumps</span></div>
+<div style="position:absolute;left:430.11px;top:724.86px" class="cls_013"><span class="cls_013">af scrum</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:8530px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background11.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.06px" class="cls_013"><span class="cls_013">board (Morgen og aften)</span></div>
+<div style="position:absolute;left:72.06px;top:555.22px" class="cls_013"><span class="cls_013">Burndown chart</span></div>
+<div style="position:absolute;left:442.12px;top:744.38px" class="cls_013"><span class="cls_013">Onsdag:</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:9383px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background12.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.06px" class="cls_013"><span class="cls_013">Screen dumps af scrum board (Morgen og aften)</span></div>
+<div style="position:absolute;left:72.06px;top:516.43px" class="cls_013"><span class="cls_013">Burndown chart</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:10236px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background13.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.56px" class="cls_006"><span class="cls_006">Sitemap:</span></div>
+<div style="position:absolute;left:72.06px;top:111.84px" class="cls_010"><span class="cls_010">Sitemap for eksisterende site og redesign:</span></div>
+<div style="position:absolute;left:72.06px;top:133.12px" class="cls_008"><span class="cls_008">Vi synes fra start, at navigationen på det eksisterende site fungerede rigtig godt. Det var</span></div>
+<div style="position:absolute;left:72.06px;top:147.38px" class="cls_008"><span class="cls_008">nemt og overskueligt, og man fandt det man søgte på sitet. Vi har derfor valgt ikke at ændre</span></div>
+<div style="position:absolute;left:72.06px;top:161.64px" class="cls_008"><span class="cls_008">ved navigationen på redesignet, og derfor er sitemappen det samme som på det</span></div>
+<div style="position:absolute;left:72.06px;top:174.65px" class="cls_008"><span class="cls_008">eksisterende site.</span></div>
+<div style="position:absolute;left:72.06px;top:440.87px" class="cls_006"><span class="cls_006">Moodboard redesign:</span></div>
+<div style="position:absolute;left:72.06px;top:459.64px" class="cls_008"><span class="cls_008">Når vi tænkte på skateboard og skating kom vi alle i tanke om vilde farver, graffiti, sjove og</span></div>
+<div style="position:absolute;left:72.06px;top:473.90px" class="cls_008"><span class="cls_008">anderledes portrætter. Derfor skulle vores moodboard vise det. Dog stadig med “hitit” logoet,</span></div>
+<div style="position:absolute;left:72.06px;top:488.91px" class="cls_008"><span class="cls_008">så vi havde dem i baghovedet, og stadig skulle at de skulle kunne stå inde for vores design.</span></div>
+<div style="position:absolute;left:436.87px;top:735.87px" class="cls_007"><span class="cls_007">Styletile for det</span></div>
+<div style="position:absolute;left:72.06px;top:750.88px" class="cls_007"><span class="cls_007">eksisterende site og redesign:</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:11089px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background14.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:100.09px" class="cls_008"><span class="cls_008">Selvom moodboardet og vores tanker var med en masse vilde farver, kom vi frem til, at</span></div>
+<div style="position:absolute;left:72.06px;top:115.10px" class="cls_008"><span class="cls_008">virksomheden gerne ville se stilrent ud på hjemmesiden. Det fandt vi ud af brugerne på sitet</span></div>
+<div style="position:absolute;left:72.06px;top:129.36px" class="cls_008"><span class="cls_008">allerede synes det lidt var. det fandt vi ud af ved hjælp af  vores bert undersøgelse, som vi</span></div>
+<div style="position:absolute;left:72.06px;top:143.63px" class="cls_008"><span class="cls_008">lavede i starten af projektet. Derfor har vi valgt at holde det klassisk med sort, hvid og så en</span></div>
+<div style="position:absolute;left:72.06px;top:158.64px" class="cls_008"><span class="cls_008">enkelt farve der går igen på købs knapperne, for at tydeliggøre dem, og de skulle være</span></div>
+<div style="position:absolute;left:72.06px;top:172.90px" class="cls_008"><span class="cls_008">genkendelige. Vi har dog ændret lidt på deres fonts, for at gøre det nemmere for brugernes</span></div>
+<div style="position:absolute;left:72.06px;top:187.91px" class="cls_008"><span class="cls_008">øjne at læse uden besvær.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:11942px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background15.jpg" width=596 height=843></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:12795px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background16.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:70.31px" class="cls_005"><span class="cls_005">Wireframe</span></div>
+<div style="position:absolute;left:72.06px;top:92.58px" class="cls_007"><span class="cls_007">Wireframe eksisterende site:</span></div>
+<div style="position:absolute;left:72.06px;top:106.84px" class="cls_008"><span class="cls_008">Vi har valgt at beholde meget af wireframen fra det eksisterende site til redesignet, da vi</span></div>
+<div style="position:absolute;left:72.06px;top:121.11px" class="cls_008"><span class="cls_008">synes det fungerede godt. Det var i forvejen overskueligt, og fik vist produkterne godt. Vi har</span></div>
+<div style="position:absolute;left:72.06px;top:136.12px" class="cls_008"><span class="cls_008">dog givet det et twist med hensyn til designet, billederne, fonts osv. Som gør der er blevet</span></div>
+<div style="position:absolute;left:72.06px;top:150.38px" class="cls_008"><span class="cls_008">ændret til noget vi mener fungere bedre og motivere brugerne mere til et køb.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:13648px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background17.jpg" width=596 height=843></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:14501px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background18.jpg" width=596 height=843></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:15354px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background19.jpg" width=596 height=843></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:16207px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background20.jpg" width=596 height=843></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:17060px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background21.jpg" width=596 height=843></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:17913px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background22.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.81px" class="cls_018"><span class="cls_018">Wireframe redesign:</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:18766px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background23.jpg" width=596 height=843></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:19619px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background24.jpg" width=596 height=843></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:20472px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background25.jpg" width=596 height=843></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:21325px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background26.jpg" width=596 height=843></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:22178px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background27.jpg" width=596 height=843></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:23031px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background28.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.56px" class="cls_006"><span class="cls_006">Story board:</span></div>
+<div style="position:absolute;left:72.06px;top:103.84px" class="cls_008"><span class="cls_008">Vi vil gerne have nogle billeder og video der fik hele skateboard viben med sig, men samtidig</span></div>
+<div style="position:absolute;left:72.06px;top:118.85px" class="cls_008"><span class="cls_008">nogen frames der gjorde at produktet var i fokus. Vi ville gerne prøve at vise lidt en “guide” til</span></div>
+<div style="position:absolute;left:72.06px;top:133.12px" class="cls_008"><span class="cls_008">hvordan man brugte de produkter man købte på sitet i virkeligheden. Derfor ville vi lave en</span></div>
+<div style="position:absolute;left:72.06px;top:148.13px" class="cls_008"><span class="cls_008">introduktionsvideo, hvor man fra start ser hvordan skruerne bliver sat i boardet, og derefter</span></div>
+<div style="position:absolute;left:72.06px;top:162.39px" class="cls_008"><span class="cls_008">nogle frames hvor der skates og laves tricks.</span></div>
+<div style="position:absolute;left:72.06px;top:589.50px" class="cls_006"><span class="cls_006">Fotos/video til redesignet:</span></div>
+<div style="position:absolute;left:72.06px;top:611.27px" class="cls_008"><span class="cls_008">Vi tog udgangspunkt i vores storyboard, hvordan vi skulle tage billederne og videoen til</span></div>
+<div style="position:absolute;left:72.06px;top:628.53px" class="cls_008"><span class="cls_008">redesignet. Vi har derefter redigeret billederne i photoshop, hvor vi gav dem et sort/hvid</span></div>
+<div style="position:absolute;left:72.06px;top:646.55px" class="cls_008"><span class="cls_008">filter, og derefter “visket” filteret væk, der hvor vi ville have de originale farver tilbage på</span></div>
+<div style="position:absolute;left:72.06px;top:663.81px" class="cls_008"><span class="cls_008">billedet. Vores fotostil er sort/hvid, med få originale farver, da vi synes det var det perfekte</span></div>
+<div style="position:absolute;left:72.06px;top:681.08px" class="cls_008"><span class="cls_008">look til redesignet, da vi ikke bruger mange farver og gerne vil holde det stilrent. Så vi har</span></div>
+<div style="position:absolute;left:72.06px;top:699.09px" class="cls_008"><span class="cls_008">valgt foto stilen “Sort/hvid med farve”.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:23884px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background29.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:70.81px" class="cls_019"><span class="cls_019">3 redigeret billeder/ikke redigeret billeder, som vi har brugt til resigtet:</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:24737px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background30.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.06px" class="cls_013"><span class="cls_013">Eksempler på fotos med høj og bredformat (60 STK):</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:25590px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background31.jpg" width=596 height=843></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:26443px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background32.jpg" width=596 height=843></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:27296px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background33.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:70.82px" class="cls_006"><span class="cls_006">Facebook video:</span></div>
+<div style="position:absolute;left:72.06px;top:91.83px" class="cls_024"><span class="cls_024"> </span><A HREF="https://www.youtube.com/watch?v=_6RosMy_8a8">https://www.youtube.com/watch?v=_6RosMy_8a8</A> </div>
+<div style="position:absolute;left:72.06px;top:138.12px" class="cls_017"><span class="cls_017">Kode for redesignet</span></div>
+<div style="position:absolute;left:72.06px;top:164.39px" class="cls_010"><span class="cls_010">Layout Diagram for redesign:</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:28149px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background34.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:486.41px" class="cls_010"><span class="cls_010">Udvælg og forklar minimum ét interessant HTML-eksempel med tilhørende</span></div>
+<div style="position:absolute;left:72.06px;top:507.43px" class="cls_010"><span class="cls_010">CSS:</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:29002px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background35.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:71.31px" class="cls_020"><span class="cls_020">Nederst på vores forside ville vi gerne have et automatisk diasshow kørende med</span></div>
+<div style="position:absolute;left:72.06px;top:91.58px" class="cls_020"><span class="cls_020">nogle billeder af websitets essens - skateboarding (udstyr). For at gøre dette måtte vi</span></div>
+<div style="position:absolute;left:72.06px;top:112.59px" class="cls_020"><span class="cls_020">i html’en lave en sektion, hvori alle billeder ligger. Disse billeder skal alle have</span></div>
+<div style="position:absolute;left:72.06px;top:132.86px" class="cls_020"><span class="cls_020">samme class, fordi der i javaScript koden er en variabel x, der er lig med vores class</span></div>
+<div style="position:absolute;left:72.06px;top:153.88px" class="cls_020"><span class="cls_020">tilbage i html’en. Denne variabel kan altså ikke være flere ting på én gang.</span></div>
+<div style="position:absolute;left:72.06px;top:174.90px" class="cls_020"><span class="cls_020">I vores javaScript kode starter vi med at have en variabel kaldet slideIndex = 0, fordi</span></div>
+<div style="position:absolute;left:72.06px;top:195.16px" class="cls_020"><span class="cls_020">vi ikke skal have et fast billede til at starte med.</span></div>
+<div style="position:absolute;left:72.06px;top:216.18px" class="cls_020"><span class="cls_020">Så går vi til function carousel(), hvor vi fortæller, hvilke dom elementer, vores var x</span></div>
+<div style="position:absolute;left:72.06px;top:236.45px" class="cls_020"><span class="cls_020">skal være lig med, samt hvornår hvilke ting skal vises (style.display = “block”) og</span></div>
+<div style="position:absolute;left:72.06px;top:257.46px" class="cls_020"><span class="cls_020">hvornår ting ikke skal vises (style.display = “none”).</span></div>
+<div style="position:absolute;left:72.06px;top:278.48px" class="cls_020"><span class="cls_020">*vores css er ikke det mest interessante her. Vi har blot defineret, hvor på siden det</span></div>
+<div style="position:absolute;left:72.06px;top:298.75px" class="cls_020"><span class="cls_020">skal være*</span></div>
+<div style="position:absolute;left:72.06px;top:338.79px" class="cls_006"><span class="cls_006">Analyse af redesignet:</span></div>
+<div style="position:absolute;left:72.06px;top:356.55px" class="cls_010"><span class="cls_010">Lighthouse:</span></div>
+<div style="position:absolute;left:72.06px;top:372.31px" class="cls_020"><span class="cls_020">Vores første forsøg med lighthouse, der kunne vi godt forbedre os inde på</span></div>
+<div style="position:absolute;left:72.06px;top:388.07px" class="cls_020"><span class="cls_020">accessibility. Der skal vi blandt andet optimere vores awrtyukuyjnhtbgvf</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:29855px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background36.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:70.56px" class="cls_010"><span class="cls_010">Bert test af redesignet:</span></div>
+<div style="position:absolute;left:72.06px;top:102.08px" class="cls_020"><span class="cls_020">Vi har lavet en bert test for vores redesign, for at kunne sammenligne vores</span></div>
+<div style="position:absolute;left:72.06px;top:118.60px" class="cls_020"><span class="cls_020">resultater fra vores bert test af det eksisterende site. Derefter har vi </span><span class="cls_008">brugt excel for at</span></div>
+<div style="position:absolute;left:72.06px;top:133.61px" class="cls_008"><span class="cls_008">kalkulere gennemsnittet for hver bipolære svarmulighed.</span></div>
+<div style="position:absolute;left:72.06px;top:164.39px" class="cls_021"><span class="cls_021">“Hvordan vil du beskrive designet?”</span><span class="cls_020">.</span></div>
+<div style="position:absolute;left:75.40px;top:180.90px" class="cls_020"><span class="cls_020">Resultatet fra det eksisterende site lå spørgsmålet i midten mellem “Professionelt og</span></div>
+<div style="position:absolute;left:72.06px;top:196.66px" class="cls_020"><span class="cls_020">amatør” med 45,5%.</span></div>
+<div style="position:absolute;left:72.06px;top:212.43px" class="cls_020"><span class="cls_020">Det er nu et skridt tættere på “professionelt” med 57,1%. Det er en forbedring.</span></div>
+<div style="position:absolute;left:72.06px;top:244.70px" class="cls_021"><span class="cls_021">“</span><span class="cls_022">Hvor meget inspirere hjemmesiden dig?”.</span></div>
+<div style="position:absolute;left:72.06px;top:262.72px" class="cls_020"><span class="cls_020">Resultatet fra det eksisterende site lå spørgsmålet på en 4 plads, dvs. tæt på ”slet</span></div>
+<div style="position:absolute;left:72.06px;top:278.48px" class="cls_020"><span class="cls_020">ikke” med 54,4%.</span></div>
+<div style="position:absolute;left:72.06px;top:294.25px" class="cls_020"><span class="cls_020">Det er nu på plads 2, og tæt på “meget” med 42,9%. Det er en forbedring.</span></div>
+<div style="position:absolute;left:72.06px;top:326.52px" class="cls_010"><span class="cls_010">“Hvad synes du om hjemmesiden?”.</span></div>
+<div style="position:absolute;left:72.06px;top:342.29px" class="cls_020"><span class="cls_020">Resultatet fra det eksisterende site lå spørgsmålet på en 3 plads, midten af “kreativ</span></div>
+<div style="position:absolute;left:72.06px;top:358.05px" class="cls_020"><span class="cls_020">og kedelig” med 63,3%.</span></div>
+<div style="position:absolute;left:72.06px;top:373.81px" class="cls_020"><span class="cls_020">Det er nu på plads 1, og brugerne mener sitet er “kreativt” med 28,6%. Det er en</span></div>
+<div style="position:absolute;left:72.06px;top:389.58px" class="cls_020"><span class="cls_020">forbedring.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:30708px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background37.jpg" width=596 height=843></div>
+<div style="position:absolute;left:72.06px;top:70.56px" class="cls_010"><span class="cls_010">5-sekunders test af redesignet:</span></div>
+<div style="position:absolute;left:72.06px;top:102.08px" class="cls_020"><span class="cls_020">Ved 5.sek testen af redesignet har vi valgt 2 testpersoner der aldrig har set sitet før. I</span></div>
+<div style="position:absolute;left:72.06px;top:118.60px" class="cls_020"><span class="cls_020">forhold til den samme test vi tog med det eksisterende site, har vi stadig formået at</span></div>
+<div style="position:absolute;left:72.06px;top:134.62px" class="cls_008"><span class="cls_008">afdække brugerens førstehåndsindtryk af sitet som det vi ønskede, nemlig skateboarding,</span></div>
+<div style="position:absolute;left:72.06px;top:148.88px" class="cls_008"><span class="cls_008">som også er det sitet går ud på. Vi ville gøre logoet mere i fokus, da vi med testen på det</span></div>
+<div style="position:absolute;left:72.06px;top:163.89px" class="cls_008"><span class="cls_008">eksisterende site fandt ud af, at de ikke mente logoet var noget af det første man fik øje på.</span></div>
+<div style="position:absolute;left:72.06px;top:177.15px" class="cls_008"><span class="cls_008">Det er bekræftet, at det er det nu.</span></div>
+<div style="position:absolute;left:90.08px;top:208.67px" class="cls_010"><span class="cls_010">1.  person</span></div>
+<div style="position:absolute;left:72.06px;top:240.95px" class="cls_023"><span class="cls_023">Hvad er det første du ser på 5 sekunder?</span></div>
+<div style="position:absolute;left:90.08px;top:266.47px" class="cls_023"><span class="cls_023">●   Videoen på forsiden</span></div>
+<div style="position:absolute;left:90.08px;top:278.48px" class="cls_023"><span class="cls_023">●   Logo</span></div>
+<div style="position:absolute;left:90.08px;top:290.49px" class="cls_023"><span class="cls_023">●   Kurven menu</span></div>
+<div style="position:absolute;left:90.08px;top:302.50px" class="cls_023"><span class="cls_023">●   Shop menu</span></div>
+<div style="position:absolute;left:90.08px;top:313.76px" class="cls_023"><span class="cls_023">●   Media menu</span></div>
+<div style="position:absolute;left:72.06px;top:352.04px" class="cls_023"><span class="cls_023">Hvad handler sitet om?</span></div>
+<div style="position:absolute;left:90.08px;top:378.32px" class="cls_023"><span class="cls_023">●   Skateboarding, video sagde det</span></div>
+<div style="position:absolute;left:90.08px;top:389.58px" class="cls_023"><span class="cls_023">●   Salg af skateboard og merchandise</span></div>
+<div style="position:absolute;left:72.06px;top:427.86px" class="cls_023"><span class="cls_023">Hvad var mest  iøjnefaldende på sitet?</span></div>
+<div style="position:absolute;left:90.08px;top:453.38px" class="cls_023"><span class="cls_023">●   Da han hoppede/lavede tricks i videoen</span></div>
+<div style="position:absolute;left:72.06px;top:491.66px" class="cls_023"><span class="cls_023">Beskriv hjemmesiden med ét ord</span></div>
+<div style="position:absolute;left:90.08px;top:514.18px" class="cls_023"><span class="cls_023">●   Simpel</span></div>
+<div style="position:absolute;left:90.08px;top:558.47px" class="cls_010"><span class="cls_010">2.  person</span></div>
+<div style="position:absolute;left:72.06px;top:590.74px" class="cls_023"><span class="cls_023">Hvad er det første du ser på 5 sekunder?</span></div>
+<div style="position:absolute;left:90.08px;top:617.02px" class="cls_023"><span class="cls_023">●   Videoen</span></div>
+<div style="position:absolute;left:90.08px;top:629.03px" class="cls_023"><span class="cls_023">●   Logoet</span></div>
+<div style="position:absolute;left:90.08px;top:640.29px" class="cls_023"><span class="cls_023">●   Menuen</span></div>
+<div style="position:absolute;left:72.06px;top:666.56px" class="cls_023"><span class="cls_023">Hvad handler sitet om?</span></div>
+<div style="position:absolute;left:90.08px;top:692.83px" class="cls_023"><span class="cls_023">●   Skateboard</span></div>
+<div style="position:absolute;left:90.08px;top:704.09px" class="cls_023"><span class="cls_023">●   skaterudstyr</span></div>
+<div style="position:absolute;left:72.06px;top:742.37px" class="cls_023"><span class="cls_023">Hvad var mest  iøjnefaldende på sitet?</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-298px;top:31561px;width:596px;height:843px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_id_a3b2e9f8-50ca-11eb-8b25-0cc47a792c0a_files/background38.jpg" width=596 height=843></div>
+<div style="position:absolute;left:90.08px;top:71.31px" class="cls_023"><span class="cls_023">●   Skateboardet</span></div>
+<div style="position:absolute;left:90.08px;top:82.57px" class="cls_023"><span class="cls_023">●   Tricket</span></div>
+<div style="position:absolute;left:72.06px;top:108.84px" class="cls_023"><span class="cls_023">Beskriv hjemmesiden med ét ord</span></div>
+<div style="position:absolute;left:90.08px;top:131.36px" class="cls_023"><span class="cls_023">●   Gennemgående (temaet er gennemgående)</span></div>
+<div style="position:absolute;left:72.06px;top:192.16px" class="cls_010"><span class="cls_010">Eksperttest af redesignet:</span></div>
+</div>
+
+</body>
+</html>

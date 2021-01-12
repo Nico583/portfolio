@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO - KONTAKT</title>
+    <link rel="stylesheet" href="kontakt.css">
+
+    <!--    favicon-->
+    <link rel="shortcut icon" href="images/logoN.png" type="image/x-icon">
+    <!--    font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--    medias icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <!--        logo-->
+        <a href="index.html"><img id="Nlogo" src="images/logoN.png" alt="N_logo" width="35" height="35"></a>
+        <nav>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a href="mit_cv.html">OM MIG</a>
+            <a href="kontakt.html">KONTAKT </a>
+        </nav>
+    </header>
+    <main>
+        <h1>HAR DU ET SPØRGSMÅL?</h1>
+        <p>Du er meget velkommen til at kontakte mig</p>
+
+        <!--        form html-->
+        <form action="tak-form.html" name="kontakt">
+            <div class="form-group">
+                <label>
+                    <input id="name" name="name" type="text" placeholder="NAVN" required>
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input id="email" placeholder="EMAIL" name="email" type="EMAIL" required>
+                </label>
+            </div>
+
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="HER KAN DU SKRIVE.." rows="8" required></textarea>
+            </div>
+
+            <button id="send_message">SEND BESKED</button><a href="tak-form.html"></a>
+        </form>
+
+    </main>
+
+    <!--    footer-->
+
+    <footer>
+
+        <a href="https://www.instagram.com/nicolinehb/" target="blank" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/nicolineholmbeese1" class="fa fa-facebook"></a>
+
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">⇧</button>
+
+    <script src="style.js"></script>
+
+
+
+</body>
+
+</html>

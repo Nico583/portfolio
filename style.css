@@ -1,0 +1,72 @@
+/*---- logo---*/
+
+#Nlogo {
+    position: fixed;
+    left: 7px;
+    top: 2px;
+}
+
+
+/*--- menu/header----*/
+
+header {
+    position: sticky;
+    background-color: white;
+    text-align: right;
+    top: 0px;
+    font-family: 'Roboto';
+    margin-top: 5px;
+}
+
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:visited {
+    color: grey;
+
+}
+
+nav a:hover {
+    color: #d9bea2;
+    text-decoration: none;
+}
+
+
+
+/*---------splashbillede-----------*/
+.splashbillede {
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 100px;
+
+
+}
+
+/*---hover----*/
+
+
+
+a:hover,
+a:active {
+
+    color: #d9bea2;
+}
+
+
+@media screen and (max-width: 600px) {
+    .splashbillede {
+        width: 80vw;
+        margin-left: 10vw;
+
+    }
+
+    #Nlogo {
+        position: fixed;
+        left: 7px;
+        top: 2px;
+    }
+}
